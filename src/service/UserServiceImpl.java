@@ -1,5 +1,6 @@
 package service;
 
-public class UserServiceImpl {
-    void save(String firstName, String lastName, int age);
+public abstract class UserServiceImpl {
+    void save(String firstName, String lastName, int age) {
+    }
 }
